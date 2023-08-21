@@ -3,7 +3,7 @@ import { Input } from "mdb-ui-kit"; // module
 export default function Footer() {
   const hour = new Date().getHours();
   console.log(hour);
-  const isopen = hour >= 19 && hour <= 22;
+  const isopen = hour >= 9 && hour <= 22;
   console.log(isopen);
 
   //    alert("WE are currently open!!");
