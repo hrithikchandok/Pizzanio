@@ -17,7 +17,10 @@ export default function Footer() {
   return (
     <>
       {isopen ? (
+        <>
         <h1>We are open right now </h1>
+  <button className="btn">Order now</button>
+    </>
       ) : (
         <h1>We are closed right now </h1>
       )}
